@@ -1,0 +1,32 @@
+{{ $config := .Site.Data.config }}
+
+<!DOCTYPE html>
+<html lang="en-US" class="{{ if .Params.color }} {{ .Params.color }} {{ end }}">
+<head>
+  <title>
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ if .IsHome }}
+        {{ .Site.Title }}
+    {{ else if .Params.heading }}
+        {{ .Params.heading }}
+    {{ else }}
+        {{ .Title }} | {{ .Site.Title }}
+    {{ end }}
+  </title>
+  <!-- TODO add icon here -->
+	<!-- <link rel="icon" href="{{.Site.BaseURL}}images/logo.png" type = "image/x-icon"> -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/styles.css">
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Meta tags -->
+	<meta name="author" content="{{ $config.author }}">
+	<meta name="theme-color" content="#000000">
+  <!-- TODO add description -->
+	<!-- <meta name="description" content="{{ if .IsHome }}{{ .Site.Data.welcome.description }} {{ else }} {{.Title}} {{ end }}"/> -->
+
+</head>
+<body class="clearfix">

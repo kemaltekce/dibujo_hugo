@@ -1,0 +1,10 @@
+{{ $intro := .Site.Data.intro }}
+<section class="box black">
+  <p class="light m-bottom"><span class="bold">{{ $intro.slogan }}</span>{{ $intro.text }}</p>
+  {{ range $index, $feature := $intro.features}}
+    <p class="medium feature m-tb-8 p-lr-8">{{ $feature }}</p>
+  {{ end }}
+  <div class="button orange m-top">
+    <a href="">try it</a>
+  </div>
+</section>
