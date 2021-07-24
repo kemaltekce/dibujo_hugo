@@ -1,0 +1,15 @@
+{{ $features := .Site.Data.feature }}
+
+{{ range $index, $feature := $features}}
+<section class="box">
+  <p class="m-bottom regular">
+    {{ range $index, $text := $feature}}
+    <span class="{{ $text.style }}">{{ $text.subtext }}</span>
+    {{ end }}
+  </p>
+  <!-- TODO add images. Placeholder for now -->
+  <div
+    style="height: 250px; background-color: white; border-radius: 7px;"
+    ></div>
+</section>
+{{ end }}
