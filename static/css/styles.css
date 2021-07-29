@@ -13,6 +13,21 @@ a {
   text-decoration: none;
 }
 
+input {
+  border: none;
+  background: none;
+  flex: auto;
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  background-color: #A0A9B1;
+}
+
 /* component style */
 
 .box {
@@ -22,6 +37,13 @@ a {
   margin: 24px;
   padding: 32px;
   border-radius: 20px;
+}
+
+.signup {
+  display: flex;
+  background-color: #fffefc;
+  padding: 5px;
+  border-radius: 7px;
 }
 
 .highlight {
@@ -80,6 +102,10 @@ a {
   color: #A0A9B1;
 }
 
+.text-small {
+  font-size: 14px !important;
+}
+
 /* button style */
 
 .button {
@@ -92,5 +118,9 @@ a {
 
 .orange a {
   color: #fffefc;
+}
+
+.signup .button {
+  padding: 7px 10px;
 }
 
