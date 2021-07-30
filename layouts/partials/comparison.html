@@ -1,0 +1,15 @@
+{{ $comparison := .Site.Data.comparison }}
+
+<div class="header">
+  <p>📚 Comparison</p>
+</div>
+
+{{ range $index, $comparison := $comparison}}
+<section class="box">
+  <p class="m-bottom light">{{ $comparison.header }}</p>
+  <p class="medium text-medium">{{ $comparison.text }}</p>
+  <div class="button {{ $comparison.buttonstyle }} button-small text-small m-top">
+    <a href="{{ $comparison.link }}">try it</a>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,20 @@
+[
+  {
+    "header": "Bullet Journal.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "buttonstyle": "white",
+    "link": "https://bulletjournal.com/pages/learn"
+  },
+  {
+    "header": "Notion.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "buttonstyle": "white",
+    "link": "https://www.notion.so/Notion-Bullet-Journal-Template-2aaf2c0df61045a586ca72e525eb49bb"
+  },
+  {
+    "header": "dibujo.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "buttonstyle": "orange",
+    "link": ""
+  }
+]
