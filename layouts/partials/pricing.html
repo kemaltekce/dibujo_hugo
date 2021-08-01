@@ -1,0 +1,19 @@
+{{ $pricing := .Site.Data.pricing }}
+
+<div class="header">
+  <p>🧱 pricing</p>
+</div>
+
+{{ range $index, $pricing := $pricing}}
+<section class="box">
+  <p class="light">
+    <span>{{ $pricing.header }}</span>
+    <span class="grey">{{ $pricing.text }}</span>
+  </p>
+  <!-- <p class="m-bottom light">{{ $pricing.header }}</p>
+  <p class="medium text-medium">{{ $pricing.text }}</p> -->
+  <div class="button button-small text-small m-top black">
+    <a href="{{ $pricing.link }}">{{ $pricing.buttontext }}</a>
+  </div>
+</section>
+{{ end }}
