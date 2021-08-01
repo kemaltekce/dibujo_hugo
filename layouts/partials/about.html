@@ -1,0 +1,12 @@
+{{ $about := .Site.Data.about }}
+
+<div class="header">
+  <p>🍉 About</p>
+</div>
+
+<section class="box">
+  <p class="medium text-medium">{{ $about.text }}</p>
+  <div class="button black button-small text-small m-top">
+    <a href="{{ $about.link }}">learn more</a>
+  </div>
+</section>
