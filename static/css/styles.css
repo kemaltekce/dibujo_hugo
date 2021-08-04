@@ -3,6 +3,7 @@ body {
   background-color: #fffefc;
   max-width: 700px;
   margin: auto;
+  color: #454545;
 }
 
 p {
@@ -11,6 +12,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #454545;
 }
 
 input {
@@ -26,6 +28,12 @@ button {
 
 button:focus {
   background-color: #A0A9B1;
+}
+
+@media screen and (max-width: 500px) {
+  .small-screen-no {
+     display: none;
+  }
 }
 
 /* component style */
@@ -66,6 +74,26 @@ button:focus {
   background-color: #fffefc;
   border: #E88439 solid 1px;
   color: #454545;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 24px;
+}
+
+.nav .sections a {
+  margin: 0px 5px;
+}
+
+.nav .sections a:hover {
+  color: #E88439;
+}
+
+.nav .home {
+  margin-right: 20px;
 }
 
 /* paddings and margins */
