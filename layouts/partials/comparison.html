@@ -8,8 +8,8 @@
 <section class="box">
   <p class="m-bottom light">{{ $comparison.header }}</p>
   <p class="medium text-medium">{{ $comparison.text }}</p>
-  <div class="button {{ $comparison.buttonstyle }} button-small text-small m-top">
-    <a href="{{ $comparison.link }}">try it</a>
-  </div>
+  <a href="{{ $comparison.link }}" class="button {{ $comparison.buttonstyle }} button-small text-small m-top">
+    <div>try it</div>
+  </a>
 </section>
 {{ end }}
