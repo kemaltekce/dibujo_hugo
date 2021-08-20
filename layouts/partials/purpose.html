@@ -9,6 +9,6 @@
   {{ if $purpose.header }}
   <p class="m-bottom light">{{ $purpose.header }}</p>
   {{ end }}
-  <p class="medium text-medium">{{ $purpose.text }}</p>
+  <p class="medium text-medium">{{ (replace $purpose.text "\n" "<br/>") | safeHTML }}</p>
 </section>
 {{ end }}

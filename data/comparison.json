@@ -1,19 +1,19 @@
 [
   {
     "header": "Bullet Journal.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "It all started here. This is the origin. The pen and paper version of the bullet journal. It helps you to be intentional and productive. It is the intersection between what to do and why to do it.",
     "buttonstyle": "white",
     "link": "https://bulletjournal.com/pages/learn"
   },
   {
     "header": "Notion.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "Notion helps you to have everything in one place. Avoid too many tools and too much chaos. Notion is just great. If you are already using Notion, try out the bullet journal template below.",
     "buttonstyle": "white",
     "link": "https://www.notion.so/Notion-Bullet-Journal-Template-2aaf2c0df61045a586ca72e525eb49bb"
   },
   {
     "header": "dibujo.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "text": "Be intentional in the digital space. Have your bullet journal always with you. Don't get overwhelmed by a ton of features. It's almost like pen and paper. Simply bullets. Simply pages.",
     "buttonstyle": "orange",
     "link": "/prototype/index.html"
   }
