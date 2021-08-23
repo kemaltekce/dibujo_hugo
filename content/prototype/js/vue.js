@@ -30,18 +30,16 @@ var app = new Vue({
               position: 0,
               bullets: [
                 {id: this.uuid(), text: '2021 January', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Steph: Dry ice delivery', position: 1, style: 'todo'},
-                {id: this.uuid(), text: 'Cancel yoga orientation', position: 2, style: 'todo'},
-                {id: this.uuid(), text: 'Get Kim birthday cake', position: 3, style: 'todo'},
-                {id: this.uuid(), text: 'Log hours', position: 4, style: 'todo'},
-                {id: this.uuid(), text: 'Submit expenses', position: 5, style: 'todo'},
-                {id: this.uuid(), text: 'Send Linda vacation photos', position: 6, style: 'todo'},
-                {id: this.uuid(), text: 'Pay rent', position: 7, style: 'todo'},
-                {id: this.uuid(), text: 'Call Grandma', position: 8, style: 'todo'},
-                {id: this.uuid(), text: 'Drop off laundry', position: 9, style: 'todo'},
-                {id: this.uuid(), text: 'Schedule doctors appointment', position: 10, style: 'todo'},
-                {id: this.uuid(), text: 'Buy dress for Vivians wedding', position: 11, style: 'todo'},
-                {id: this.uuid(), text: 'Make playlist for Vivians wedding', position: 7, style: 'todo'},
+                {id: this.uuid(), text: 'Cancel gym membership', position: 2, style: 'todo'},
+                {id: this.uuid(), text: 'Bake Kiki birthday cake', position: 3, style: 'todo'},
+                {id: this.uuid(), text: 'Work on dibujo project', position: 4, style: 'todo'},
+                {id: this.uuid(), text: 'Submit presentation', position: 5, style: 'todo'},
+                {id: this.uuid(), text: 'Send Kiki holiday photos', position: 6, style: 'todo'},
+                {id: this.uuid(), text: 'Invest in EFTs', position: 7, style: 'todo'},
+                {id: this.uuid(), text: 'Call parents', position: 8, style: 'todo'},
+                {id: this.uuid(), text: 'Wash laundry', position: 9, style: 'todo'},
+                {id: this.uuid(), text: 'Schedule dentist appointment', position: 10, style: 'todo'},
+                {id: this.uuid(), text: 'Go shopping', position: 11, style: 'todo'},
               ]
             },
             {
@@ -49,7 +47,7 @@ var app = new Vue({
               position: 1,
               bullets: [
                 {id: this.uuid(), text: '2020 December', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Cancel yoga orientation', position: 1, style: 'migrate'}
+                {id: this.uuid(), text: 'Cancel gym membership', position: 1, style: 'migrate'}
               ]
             },
           ],
@@ -64,19 +62,17 @@ var app = new Vue({
               bullets: [
                 {id: this.uuid(), text: '2021.01 - Week 2', position: 0, style: 'h1'},
                 {id: this.uuid(), text: 'work', position: 1, style: 'h2'},
-                {id: this.uuid(), text: 'Log hours', position: 2, style: 'todo'},
-                {id: this.uuid(), text: 'Submit expenses', position: 3, style: 'todo'},
-                {id: this.uuid(), text: 'Acme Co: Release forms', position: 4, style: 'todo'},
-                {id: this.uuid(), text: 'Heather: Email', position: 5, style: 'todo'},
-                {id: this.uuid(), text: 'Email forms to participants', position: 6, style: 'todo'},
-                {id: this.uuid(), text: 'Get signatures', position: 7, style: 'todo'},
+                {id: this.uuid(), text: 'Work on dibujo project', position: 2, style: 'todo'},
+                {id: this.uuid(), text: 'Submit presentation', position: 3, style: 'todo'},
+                {id: this.uuid(), text: 'Tkc: release prototype', position: 4, style: 'todo'},
+                {id: this.uuid(), text: 'Sofie: Email', position: 5, style: 'todo'},
+                {id: this.uuid(), text: 'Email to prototype tester', position: 6, style: 'todo'},
                 {id: this.uuid(), text: 'personal', position: 8, style: 'h2'},
-                {id: this.uuid(), text: 'Steph: Dry ice delivery', position: 9, style: 'todo'},
-                {id: this.uuid(), text: 'Cancel yoga orientation', position: 10, style: 'todo'},
-                {id: this.uuid(), text: 'Get Kim birthday cake!', position: 11, style: 'todo'},
-                {id: this.uuid(), text: 'Send Linda vacation photos', position: 12, style: 'todo'},
-                {id: this.uuid(), text: 'Pay rent', position: 13, style: 'todo'},
-                {id: this.uuid(), text: 'Buy dress for Vivans wedding', position: 14, style: 'todo'}
+                {id: this.uuid(), text: 'Cancel gym membership', position: 10, style: 'todo'},
+                {id: this.uuid(), text: 'Bake Kiki birthday cake!', position: 11, style: 'todo'},
+                {id: this.uuid(), text: 'Send Kiki holiday photos', position: 12, style: 'todo'},
+                {id: this.uuid(), text: 'Invest in ETFs', position: 13, style: 'todo'},
+                {id: this.uuid(), text: 'Go shopping', position: 14, style: 'todo'}
               ]
             },
             {
@@ -85,15 +81,14 @@ var app = new Vue({
               bullets: [
                 {id: this.uuid(), text: '2021.01 - Week 1', position: 0, style: 'h1'},
                 {id: this.uuid(), text: 'work', position: 1, style: 'h2'},
-                {id: this.uuid(), text: 'Log hours', position: 2, style: 'migrate'},
-                {id: this.uuid(), text: 'Submit expenses', position: 3, style: 'migrate'},
-                {id: this.uuid(), text: 'Acme Co: Project presentation', position: 4, style: 'done'},
+                {id: this.uuid(), text: 'Work on dibujo project', position: 2, style: 'migrate'},
+                {id: this.uuid(), text: 'Submit presentation', position: 3, style: 'migrate'},
+                {id: this.uuid(), text: 'Tkc: Project presentation', position: 4, style: 'done'},
                 {id: this.uuid(), text: 'personal', position: 5, style: 'h2'},
-                {id: this.uuid(), text: 'Call Grandma', position: 6, style: 'done'},
-                {id: this.uuid(), text: 'Drop off laundry', position: 7, style: 'done'},
-                {id: this.uuid(), text: 'Schedule doctor appointment', position: 8, style: 'done'},
-                {id: this.uuid(), text: 'Buy dress for Vivians wedding', position: 9, style: 'migrate'},
-                {id: this.uuid(), text: 'Make playlist for Vivians wedding', position: 10, style: 'done'}
+                {id: this.uuid(), text: 'Call parents', position: 6, style: 'done'},
+                {id: this.uuid(), text: 'Wash laundry', position: 7, style: 'done'},
+                {id: this.uuid(), text: 'Schedule dentist appointment', position: 8, style: 'done'},
+                {id: this.uuid(), text: 'Go shopping', position: 9, style: 'migrate'},
               ]
             },
           ],
@@ -107,16 +102,15 @@ var app = new Vue({
               position: 0,
               bullets: [
                 {id: this.uuid(), text: '2021-01-05 Tuesday', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Cancel Yoga', position: 1, style: 'todo'},
-                {id: this.uuid(), text: 'Kim: Get birthday cake', position: 2, style: 'todo'},
-                {id: this.uuid(), text: 'Celiac: Needs to be gluten-free', position: 3, style: 'note'},
-                {id: this.uuid(), text: 'The parts on Thursday', position: 4, style: 'note'},
-                {id: this.uuid(), text: 'Acme Co: Log hours', position: 5, style: 'todo'},
-                {id: this.uuid(), text: 'Broadway blocked, had to take long way', position: 6, style: 'note'},
-                {id: this.uuid(), text: 'Found new coffee place', position: 7, style: 'note'},
-                {id: this.uuid(), text: 'Much prettier drive', position: 8, style: 'note'},
-                {id: this.uuid(), text: 'Felt more relaxed when I arrived', position: 9, style: 'note'},
-                {id: this.uuid(), text: 'Plan trip', position: 10, style: 'todo'}
+                {id: this.uuid(), text: 'Cancel gym membership', position: 1, style: 'todo'},
+                {id: this.uuid(), text: 'Kiki: Bake birthday cake', position: 2, style: 'todo'},
+                {id: this.uuid(), text: 'Maybe chocolate banana cake', position: 3, style: 'note'},
+                {id: this.uuid(), text: 'The party is on Saturday', position: 4, style: 'note'},
+                {id: this.uuid(), text: 'Tkc: work on dibujo project', position: 5, style: 'todo'},
+                {id: this.uuid(), text: 'Harbor way blocked, had to take another way', position: 6, style: 'note'},
+                {id: this.uuid(), text: 'Found new restaurant', position: 7, style: 'note'},
+                {id: this.uuid(), text: 'Much nicer walk', position: 8, style: 'note'},
+                {id: this.uuid(), text: 'Plan vacation', position: 10, style: 'todo'}
               ]
             },
             {
@@ -124,17 +118,15 @@ var app = new Vue({
               position: 1,
               bullets: [
                 {id: this.uuid(), text: '2021-01-04 Monday', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Keith: Call re. Satuday dinner', position: 1, style: 'todo'},
-                {id: this.uuid(), text: 'Acme Co: Release forms', position: 2, style: 'todo'},
-                {id: this.uuid(), text: 'Heather: Email', position: 3, style: 'todo'},
-                {id: this.uuid(), text: 'Email forms to participants', position: 4, style: 'migrate'},
-                {id: this.uuid(), text: 'Get signatures', position: 5, style: 'migrate'},
-                {id: this.uuid(), text: 'Acme Co: UX presentation Feb 12', position: 6, style: 'note'},
-                {id: this.uuid(), text: 'Leigh: Reply Apr 21 parts', position: 7, style: 'done'},
-                {id: this.uuid(), text: 'Office closed Apr 13', position: 8, style: 'todo'},
-                {id: this.uuid(), text: 'Margret: Volunteered to help with assests', position: 9, style: 'note'},
-                {id: this.uuid(), text: 'Showing more incentive and engagement', position: 10, style: 'note'},
-                {id: this.uuid(), text: 'Increased participant effort', position: 11, style: 'note'}
+                {id: this.uuid(), text: 'Levi: Call re. Tuesday breakfast', position: 1, style: 'todo'},
+                {id: this.uuid(), text: 'Tkc: Release prototype', position: 2, style: 'todo'},
+                {id: this.uuid(), text: 'Sofie: Email', position: 3, style: 'todo'},
+                {id: this.uuid(), text: 'Email forms to prototype tester', position: 4, style: 'migrate'},
+                {id: this.uuid(), text: 'Tkc: project presentation Feb 21', position: 6, style: 'note'},
+                {id: this.uuid(), text: 'Levi: Reply Apr 21 party', position: 7, style: 'done'},
+                {id: this.uuid(), text: 'Sofie: Volunteered to help with curriculum', position: 9, style: 'note'},
+                {id: this.uuid(), text: 'Showing more motivation', position: 10, style: 'note'},
+                {id: this.uuid(), text: 'Increased student engagement', position: 11, style: 'note'}
               ]
             },
           ],
@@ -148,8 +140,8 @@ var app = new Vue({
               position: 0,
               bullets: [
                 {id: this.uuid(), text: '2021 December', position: 0, style: 'h1'},
-                {id: this.uuid(), text: '11 Jonathan birthday', position: 1, style: 'note'},
-                {id: this.uuid(), text: '15 Yay tea: Site presentation', position: 2, style: 'todo'}
+                {id: this.uuid(), text: '13 Sofie birthday', position: 1, style: 'note'},
+                {id: this.uuid(), text: '17 Launch personal website', position: 2, style: 'todo'}
               ]
             },
             {
@@ -157,9 +149,9 @@ var app = new Vue({
               position: 1,
               bullets: [
                 {id: this.uuid(), text: '2021 November', position: 0, style: 'h1'},
-                {id: this.uuid(), text: '3 James Co: Paperwork due', position: 1, style: 'todo'},
-                {id: this.uuid(), text: '14 Venton Vision: Submit outline', position: 2, style: 'todo'},
-                {id: this.uuid(), text: '9-11 San Diego trip', position: 3, style: 'note'}
+                {id: this.uuid(), text: '3 Tkc: dibujo project release', position: 1, style: 'todo'},
+                {id: this.uuid(), text: '11 Lean Learning: First website draft', position: 2, style: 'todo'},
+                {id: this.uuid(), text: '7-13 vacation trip', position: 3, style: 'note'}
               ]
             },
             {
@@ -167,8 +159,8 @@ var app = new Vue({
               position: 2,
               bullets: [
                 {id: this.uuid(), text: '2021 October', position: 0, style: 'h1'},
-                {id: this.uuid(), text: '6-7 Design Conference: NYC', position: 1, style: 'todo'},
-                {id: this.uuid(), text: '16 Maya: Dinner', position: 2, style: 'note'}
+                {id: this.uuid(), text: '3-7 Learning Conference: Münster', position: 1, style: 'todo'},
+                {id: this.uuid(), text: '23 Levi: Dinner', position: 2, style: 'note'}
               ]
             },
           ],
@@ -182,10 +174,10 @@ var app = new Vue({
               position: 0,
               bullets: [
                 {id: this.uuid(), text: 'Working on', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Taxes', position: 1, style: 'note'},
-                {id: this.uuid(), text: 'Presentation for Acme Co', position: 2, style: 'note'},
-                {id: this.uuid(), text: 'Cleaning up photo library', position: 3, style: 'note'},
-                {id: this.uuid(), text: 'Emmy dinner party planning', position: 4, style: 'note'}
+                {id: this.uuid(), text: 'Workout plan', position: 1, style: 'note'},
+                {id: this.uuid(), text: 'Design for dibujo', position: 2, style: 'note'},
+                {id: this.uuid(), text: 'Choose pictures to develop', position: 3, style: 'note'},
+                {id: this.uuid(), text: 'Planning birthday party', position: 4, style: 'note'}
               ]
             },
             {
@@ -193,13 +185,12 @@ var app = new Vue({
               position: 1,
               bullets: [
                 {id: this.uuid(), text: 'Should be working on', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Workout plan', position: 1, style: 'note'},
-                {id: this.uuid(), text: 'Learn how to invest', position: 2, style: 'note'},
+                {id: this.uuid(), text: 'Taxes', position: 1, style: 'note'},
+                {id: this.uuid(), text: 'Learn how to take photos', position: 2, style: 'note'},
                 {id: this.uuid(), text: 'Weekly meal plan', position: 3, style: 'note'},
-                {id: this.uuid(), text: 'Set 5-year goal', position: 4, style: 'note'},
-                {id: this.uuid(), text: 'Call parents', position: 5, style: 'note'},
-                {id: this.uuid(), text: 'Get a checkup', position: 6, style: 'note'},
-                {id: this.uuid(), text: 'Retirement plan', position: 7, style: 'note'}
+                {id: this.uuid(), text: 'Plan goals for the year', position: 4, style: 'note'},
+                {id: this.uuid(), text: 'Call grandma', position: 5, style: 'note'},
+                {id: this.uuid(), text: 'Go to doctor', position: 6, style: 'note'},
               ]
             },
             {
@@ -207,13 +198,12 @@ var app = new Vue({
               position: 2,
               bullets: [
                 {id: this.uuid(), text: 'Want to be working on', position: 0, style: 'h1'},
-                {id: this.uuid(), text: 'Plan trip to Hawai', position: 1, style: 'note'},
-                {id: this.uuid(), text: 'Learn to cook', position: 2, style: 'note'},
-                {id: this.uuid(), text: 'Learn another language', position: 3, style: 'note'},
-                {id: this.uuid(), text: 'Read more', position: 4, style: 'note'},
-                {id: this.uuid(), text: 'Write more', position: 5, style: 'note'},
-                {id: this.uuid(), text: 'Lose 10 pounds', position: 6, style: 'note'},
-                {id: this.uuid(), text: 'More time with friends', position: 7, style: 'note'}
+                {id: this.uuid(), text: 'Plan next trip', position: 1, style: 'note'},
+                {id: this.uuid(), text: 'Learn how to learn', position: 2, style: 'note'},
+                {id: this.uuid(), text: 'Learn Spanish', position: 3, style: 'note'},
+                {id: this.uuid(), text: 'Read a Montessori book', position: 4, style: 'note'},
+                {id: this.uuid(), text: 'Write daily on medium', position: 5, style: 'note'},
+                {id: this.uuid(), text: 'More time with family', position: 7, style: 'note'}
               ]
             },
           ],

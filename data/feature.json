@@ -1,13 +1,25 @@
 [
-  [
-    {"style": "", "subtext": "Attempt to be a digital bullet journal"},
-    {"style": "grey", "subtext": "- dibujo - with all the simple ideas the paper bullet journal offers. Pages, collections, bullets."}
-  ],
-  [
-    {"style": "grey", "subtext": "Use the sidebar for"},
-    {"style": "", "subtext": "easy and careful reflection."}
-  ],
-  [
-    {"style": "", "subtext": "Control it with your keyboard."}
-  ]
+  {
+    "text": [
+      {"style": "", "subtext": "Attempt to be a digital bullet journal"},
+      {"style": "grey", "subtext": "- dibujo - with all the simple ideas the paper bullet journal offers. Pages, collections, bullets."}
+    ],
+    "image": "images/dibujo.png",
+    "alternative_image": "images/dibujo_sketch.png"
+  },
+  {
+    "text": [
+      {"style": "grey", "subtext": "Use the sidebar for"},
+      {"style": "", "subtext": "easy and careful reflection."}
+    ],
+    "image": "images/sidebar.png",
+    "alternative_image": "images/sidebar_sketch.png"
+  },
+  {
+    "text": [
+      {"style": "", "subtext": "Control it with your keyboard."}
+    ],
+    "image": "images/keyboard.gif",
+    "alternative_image": "images/keyboard.gif"
+  }
 ]

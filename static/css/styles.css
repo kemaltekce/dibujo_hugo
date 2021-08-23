@@ -36,6 +36,16 @@ button:focus {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .image {
+     display: none;
+  }
+
+  .alternative-image {
+    display: flex !important;
+ }
+}
+
 /* component style */
 
 .box {
@@ -94,6 +104,18 @@ button:focus {
 
 .nav .home {
   margin-right: 20px;
+}
+
+.image-feature {
+  overflow: hidden;
+}
+
+image {
+  display: flex;
+}
+
+.alternative-image {
+  display: none;
 }
 
 /* paddings and margins */

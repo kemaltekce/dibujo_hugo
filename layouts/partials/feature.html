@@ -3,13 +3,16 @@
 {{ range $index, $feature := $features}}
 <section class="box">
   <p class="m-bottom regular">
-    {{ range $index, $text := $feature}}
+    {{ range $index, $text := $feature.text}}
     <span class="{{ $text.style }}">{{ $text.subtext }}</span>
     {{ end }}
   </p>
   <!-- TODO add images. Placeholder for now -->
-  <div
-    style="height: 250px; background-color: white; border-radius: 7px;"
-    ></div>
+  <div class="image-feature image">
+    <image src="{{ $feature.image }}"></image>
+  </div>
+  <div class="image-feature alternative-image">
+    <image src="{{ $feature.alternative_image }}"></image>
+  </div>
 </section>
 {{ end }}
