@@ -1,9 +1,13 @@
 body {
   font-family: 'Inter', sans-serif !important;
   background-color: #fffefc;
-  max-width: 700px;
+  max-width: 705px;
   margin: auto;
   color: #454545;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 p {
